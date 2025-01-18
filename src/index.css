@@ -1,5 +1,14 @@
-.welcome-message{
+.list-Items{
     font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    background-color: orange;
+}
+
+
+.list-category{
+    font-size: 1.5em;
     color: #333;
     text-align: center;
     margin-top: 20px;
@@ -7,10 +16,7 @@
 }
 
 
-.please-login{
-    font-size: 1.5em;
-    color: #333;
-    text-align: center;
-    margin-top: 20px;
-    background-color: blueviolet;
+.list-Items li:hover{
+    background-color: greenyellow;
+    cursor: pointer;
 }
